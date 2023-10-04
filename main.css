@@ -418,6 +418,7 @@ section .cards {
 
 }
 
+
 @media (max-width: 375px) {
     .step2-card-sec .step2-cards .card.paper {
         left: 0 !important;
