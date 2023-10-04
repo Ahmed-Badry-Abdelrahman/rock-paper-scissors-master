@@ -10,6 +10,7 @@ let score = document.querySelector('#score');
 let rules = document.querySelector('.rules');
 let closeRules = document.querySelector('#close-rules');
 let rulesBtn = document.querySelector('.rules-btn');
+let pickInfo = document.querySelector('.pick-info');
 let spans ;
 
 // y => paper           c => paper       win
@@ -72,6 +73,7 @@ arrayCards.forEach((card) => {
 
 
         step2Cards.classList.add('stopUse');
+        pickInfo.style.display = 'flex'
     }
 })
 
